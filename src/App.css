@@ -1,0 +1,8 @@
+.hovered {
+  background-color: black;
+  transform: scale(1.5);
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

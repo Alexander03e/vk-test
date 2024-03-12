@@ -1,0 +1,9 @@
+.group-friends:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.friend-modal-wrapper {
+  text-align: center;
+  background-color: #ebedf0;
+  border-radius: 8px;
+}

@@ -1,0 +1,32 @@
+.loading {
+  width: 20px;
+  height: 20px;
+  /* margin: 10px 0; */
+  border: 2.3px solid gainsboro;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: loading 1.4s infinite ease;
+}
+.loading::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

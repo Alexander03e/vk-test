@@ -1,0 +1,16 @@
+.filters-button {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 9px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.15s;
+}
+.filters-button:hover {
+  transition: 0.15s;
+  backdrop-filter: brightness(0.95);
+}
+.split {
+  display: flex;
+}
